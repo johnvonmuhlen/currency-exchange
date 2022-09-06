@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+#main
+{
+  background-image: url("https://images6.alphacoders.com/114/1141549.png");
+  background-size: cover;                      /* <------ */
+  background-repeat: no-repeat;
+  font-family: "Poppins", 'open-sans';
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#clear
+{
+  color: white;
+  display: none;
+  transition: 0.5s;
+}
+
+#clear:hover
+{
+  cursor: pointer;
+}
+
+
+
+#h1
+{
+  color: white;
+}
+
+#submit
+{
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+}
+
+#submit:hover
+{
+  background-color: rgb(212, 223, 223);
+  border: 1px solid rgb(212, 223, 223);
+}
+
+#title
+{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#content
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#result h1
+{
+  text-align: center;
+  font-size: 40px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(149, 167, 245);
+}
+
+ul
+{
+  list-style: none;
+}
+
+#img
+{
+  width: 20px;
+}
+
+.link
+{
+  color: black;
+  text-decoration: none;
+}
+
+.link.page:hover
+{
+  text-decoration: underline;
+  color: black;
+}
+
+p
+{
+  color: black;
+}
+
+.fas
+{
+  padding: 15px;
+  font-size: 25px;
+}
+
+.fas:hover
+{
+  color: white;
+  transition:0.3s;
+}
+
+#far
+{
+  font-size: 25px;
+  color: white;
+}
+
+#yo
+{
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+}
